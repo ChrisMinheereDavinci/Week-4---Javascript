@@ -1,39 +1,46 @@
 var score;
 score = 0;
-alert ('Haal 8 punten om de quiz te winnen')
+alert ('Deze Quis bevad 15 vragen.   Haal 10 punten om de quiz te winnen!')
 
 var vraag1
-vraag1 = prompt('1. Wat is het tegenoverstelde van conservatief?')
-if(vraag1 == "Progressief"){
+vraag1 = prompt('5X2=')
+if(vraag1 == "10"){
     score++;
     alert('Correct! je score is nu: '+score)
 }else{
-    alert('Fout! je score is nu: '-score)
+    alert('Fout! je score is nu: '+score)
 }
 
 var vraag2
-vraag2 = prompt('2. In welk lichaamsdeel vind je het aambeeld?')
-if(vraag2 == "In het oor"){
+vraag2 = prompt('2. 6X8=')
+if(vraag2 == "48"){
     score++;
     alert('Correct! je score is nu: '+score)
 }else{
-    alert('Fout! je score is nu: '-score)
+    alert('Fout! je score is nu: '+score)
 }
 
 var vraag3
-vraag3 = prompt('3. Welke Amerikaanse krant heeft als bijnaam The Old Gray Lady?')
-if(vraag3 == "The New York Times"){
+vraag3 = prompt('3. 10X3=')
+if(vraag3 == "30"){
     score++;
     alert('Correct! je score is nu: '+score)
 }else{
-    alert('Fout! je score is nu: '-score)
+    alert('Fout! je score is nu: '+score)
 }
 
 var vraag4
-vraag4 = prompt('4. Hoe noem je een trap die spiraalvormig omhoog gaat?')
-if(vraag4 == "Een wenteltrap"){
+vraag4 = prompt('4. 45:3=')
+if(vraag4 == "15"){
     score++;
     alert('Correct! je score is nu: '+score)
 }else{
-    alert('Fout! je score is nu: '-score)
+    alert('Fout! je score is nu: '+score)
 }
+
+function drawScore() {
+    ctx.font = "16px Arial";
+    ctx.fillStyle = "#0095DD";
+    ctx.fillText("Score: "+score, 8, 20);
+}
+drawScore();

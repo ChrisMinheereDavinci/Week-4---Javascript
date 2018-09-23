@@ -1,0 +1,10 @@
+canvas { 
+    background: rgba(196, 196, 196, 0.699);
+ }
+
+ body {
+    background-image: url("../img/pic02.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+ }

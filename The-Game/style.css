@@ -1,0 +1,9 @@
+canvas { 
+    background: rgba(196, 196, 196, 0.555);
+ }
+
+ body {
+    background-image: url("img/pic01.gif");
+    background-position: center;
+    background-size: 1920, 1080;
+    background-repeat: no-repeat;
